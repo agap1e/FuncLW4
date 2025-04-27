@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled />
+        <div class="input-fields">
+            <input type="number" id="input1" placeholder="Число 1" />
+            <input type="number" id="input2" placeholder="Число 2" />
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('add')">+</button>
+            <button onclick="calculate('subtract')">-</button>
+            <button onclick="calculate('multiply')">*</button>
+            <button onclick="calculate('divide')">/</button>
+            <button onclick="calculate('power')">^</button>
+            <button onclick="calculate('sqrt')">√</button>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
